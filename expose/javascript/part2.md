@@ -58,3 +58,15 @@ F. true, any nonzero gives true, both side gives true
 
 15. == is loose, it compare values after converting type. === is strict and only yields true when type and values both match.
 
+16. see code
+17. enters the function, declared newArr
+for loop, i = 0: callback(array[0]) returns 1*2 = 2, pushed into newArr
+i = 1: callback(array[1]) returns 2*2 = 4, pushed into newArr
+i = 2: similarly, 3*2 = 6 pushed.
+the array[2, 4, 6] is returned.
+18. see code
+19. print:
+1
+4
+3
+2
